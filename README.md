@@ -22,7 +22,7 @@ You are testing **'interfaces not implementations'** - you care only about what 
 
 3. In your katas folder you will have filenames for each of the functions you need to implement in this sprint.
 
-4. You will also need to create a `katas.test.js` file where you can write the test cases for each function and require in the functions that you will need to test.
+4. You will also need to create a `<your-function-name-here>.test.js` file inside the katas directory where you can write the test cases for each function and require in the functions that you need to test.
 
 5. Run `npm test` to run every test. Whenever you get one done, swap your pair roles!
 
