@@ -32,10 +32,10 @@ You are testing **'interfaces not implementations'** - you care only about what 
 
 8. Below is a suggested order in which to do the katas, but it isn't compulsory to follow it.
 
-- `vegCounter`
 - `getFrequencies`
 - `alternateCase`
 - `caesarCipher`
+- `vegCounter`
 
 ## Resources
 
