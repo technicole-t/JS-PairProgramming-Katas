@@ -47,4 +47,4 @@ If you'd like a primer on Test Driven Development, read [this blog post by Eric 
 
 [What is in a package.json file](https://docs.npmjs.com/files/package.json)
 
-[Jest documentation]()
+[Jest documentation](https://jestjs.io/docs/en/getting-started)
