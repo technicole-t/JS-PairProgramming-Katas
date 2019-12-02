@@ -6,13 +6,12 @@
 - Install 'Prettier'. This tool will help keep your code better formatted, more readable and prettier.
 - You may need to 'reload' after installing for the extension to take effect.
 
-
 ## To get this repo onto your computer
 
 - On the command line, navigate to the folder you want this repo to be in.
 - When pairing, one of you should click 'Fork' in the top right of the Northcoders' repo.
 - Once you have forked your own version of this repo, both of you should clone that version to your local machine.
-- To do this, on the command line type `git clone`, paste in the repo address, and press enter.
+- To do this, on the command line type `git clone `, paste in the repo address, and press enter.
 
 ## To commit your code
 
