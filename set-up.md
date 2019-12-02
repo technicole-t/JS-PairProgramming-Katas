@@ -6,26 +6,6 @@
 - Install 'Prettier'. This tool will help keep your code better formatted, more readable and prettier.
 - You may need to 'reload' after installing for the extension to take effect.
 
-## Configure your user settings
-
-- In VSCode, go to Preferences -> Settings. Depending on your version of VSCode, either click one of the icons on the top right, or click on the tab to open `Settings.json`. Paste the following JSON object in - these are our recommended settings for working on VSCode. If you have any of your own preferences feel free to add or adapt them here!
-
-```json
-{
-  "window.zoomLevel": 1,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.triggerExpansionOnTab": true,
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "workbench.activityBar.visible": true,
-  "breadcrumbs.enabled": true
-}
-```
 
 ## To get this repo onto your computer
 

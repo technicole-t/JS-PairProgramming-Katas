@@ -17,33 +17,23 @@ You are testing **'interfaces not implementations'** - you care only about what 
 ## Pairing katas tasks
 
 1. Make sure that you are in the main directory for the repo (the one containing the `package.json`)
-2. Run `npm install` to get necessary testing dependencies
-3. In your katas folder you will find a `*.js` file for each problem that needs solving. Write your solution code here.
-4. Each kata also has `*.spec.js` file associated with it, in the spec folder. Write tests for your code here! Uncomment the first line to access the functions you have written.
-5. Run `npm test` to run every test in your `spec` folder. Whenever you get one or two done, swap your pair roles!
-6. Below is a suggested order in which to do the katas, but it isn't compulsory to follow it. Feel free to pick one you like the sound of too! 
 
-- orderVeg
-- sumDigits
-- vegCounter
-- alternateCase
-- getCentury
-- areOrdered
-- middleChar
-- checkUsernames
-- maxAndMin
-- sumArgs
-- range
-- removeDuplicates
-- sumAscii
-- mergeArrays
-- checkStudents
-- getYearsOfGrowth
-- getDistinctLetters
-- getFrequencies
-- getMostRepeated
-- lengthenDate
-- caesarCipher
+2. Run `npm install` to get necessary testing dependencies
+
+3. In your katas folder you will need to create a `your-function-name-here.js` file for the function you are trying to implement.
+
+4. You will also need to create a `katas.test.js` file where you can write the test cases for each function.
+
+5. Run `npm test` to run every test. Whenever you get one done, swap your pair roles!
+
+6. Below is a suggested order in which to do the katas, but it isn't compulsory to follow it.
+
+
+- `sumDigits`
+- `vegCounter`
+- `getFrequencies`
+- `alternateCase`
+- `caesarCipher`
 
 
 ## Resources
