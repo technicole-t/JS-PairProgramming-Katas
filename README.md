@@ -47,6 +47,4 @@ If you'd like a primer on Test Driven Development, read [this blog post by Eric 
 
 [What is in a package.json file](https://docs.npmjs.com/files/package.json)
 
-[Mocha docs](https://mochajs.org/)
-
-[Chai Documentation](http://chaijs.com/api/bdd/)
+[Jest documentation]()
