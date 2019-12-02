@@ -11,7 +11,7 @@
 - On the command line, navigate to the folder you want this repo to be in.
 - When pairing, one of you should click 'Fork' in the top right of the Northcoders' repo.
 - Once you have forked your own version of this repo, both of you should clone that version to your local machine.
-- To do this, on the command line type `git clone `, paste in the repo address, and press enter.
+- To do this, on the command line type `git clone --single-branch --branch leeds_proposal_02_12_2019 <remote-repo-name>`, paste in the repo address, and press enter.
 
 ## To commit your code
 
