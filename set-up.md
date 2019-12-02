@@ -11,7 +11,7 @@
 - On the command line, navigate to the folder you want this repo to be in.
 - When pairing, one of you should click 'Fork' in the top right of the Northcoders' repo.
 - Once you have forked your own version of this repo, both of you should clone that version to your local machine.
-- To do this, on the command line type `git clone --single-branch --branch leeds_proposal_02_12_2019 <remote-repo-name>`, paste in the repo address, and press enter.
+- To do this, on the command line type `git clone --single-branch --branch leeds_proposal_02_12_2019 <remote-repo-url>`, replacing the `<remote-repo-url>` with the repo address from your Github account, and press enter.
 
 ## To commit your code
 
@@ -39,7 +39,6 @@ You can see what these commands are aliases for by checking your package.json.
 
 - _node_modules_ hold all the dependencies / libraries that your project relies on (for example, mocha and chai, for testing).
 - _.gitignore_ contains the names of all your files that you don't want committed to github. This includes node_modules, as we don't want to commit tonnes of unnecessary code that we can easily fetch with npm install.
-- _spec_ is the folder for your tests - _range.spec.js_ tests your function in _range.js_, etc.
 - _package.json_ contains information used by npm to organise your project.
 - _package-lock.json_ contains the information needed to link your node modules.
 - _README.md_ is instructions for using and running a project! READ IT! Every repo should have one. You can open it in Preview (right click) for a prettier version (using the markdown type formatting).
