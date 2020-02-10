@@ -1,5 +1,6 @@
 /*
-  The orderVeg function should take a array of vegetables and return a new array in which the vegetables are sorted in ascending order according to quantity.
+  The orderVeg function should take a array of vegetables and return a new array in 
+  which the vegetables are sorted in ascending order according to quantity.
   e.g.
   vegCounter([
   {name: 'Parsnip', type: 'root', quantity: 4},
@@ -20,6 +21,13 @@ should return:
 ]
 */
 
-function orderVeg() {}
+function orderVeg(veggies) {
+  veggies.sort(function(vegA, vegB) {
+    return vegA.quantity - vegB.quantity;
+  });
+  return veggies;
+}
+
+// return veggies.sort((vegOne, vegTwo) => vegOne.quantity - vegTwo.quantity);
 
 module.exports = orderVeg;
