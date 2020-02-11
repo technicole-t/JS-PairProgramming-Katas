@@ -7,12 +7,10 @@
   - is no longer than 20 characters
 */
 
-function checkUsernames(username) {
-  if (username.length >= 5 && username.length <= 20) {
-    return true;
-  } else {
-    return false;
-  }
+function checkUsernames(usernames) {
+  if (usernames.length === 0) return false;
+  if (usernames[0].length >= 5 && usernames[0].length <= 20) return true;
+  return false;
 }
 
 module.exports = checkUsernames;
