@@ -1,7 +1,7 @@
 const getCentury = require('../katas/get-century');
 const { expect } = require('chai');
 
-describe.only('getCentury', () => {
+describe('getCentury', () => {
   it("returns 'Please enter a year' if no argument is passed", () => {
     expect(getCentury()).to.equal("Please enter a year");
   });
