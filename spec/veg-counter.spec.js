@@ -1,7 +1,7 @@
 const countVeg = require("../katas/veg-counter");
 const { expect } = require("chai");
 
-describe.only("countVeg", () => {
+describe("countVeg", () => {
   it("returns 0 if passed an empty array", () => {
     const total = countVeg([]);
     const expected = 0;

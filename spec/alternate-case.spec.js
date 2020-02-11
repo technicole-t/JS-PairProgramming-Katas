@@ -1,7 +1,7 @@
 const alternateCase = require("../katas/alternate-case");
 const { expect } = require("chai");
 
-describe.only("alternateCase", () => {
+describe("alternateCase", () => {
   it("returns a string of two letters with the first letter capitalised and the second letter lowercase", () => {
     const str = "hi";
     const actual = alternateCase(str);

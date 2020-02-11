@@ -1,7 +1,7 @@
 const areOrdered = require("../katas/are-ordered");
 const { expect } = require("chai");
 
-describe.only("areOrdered", () => {
+describe("areOrdered", () => {
   it("returns false when an empty array is passed", () => {
     const nums = [];
     const actual = areOrdered(nums);

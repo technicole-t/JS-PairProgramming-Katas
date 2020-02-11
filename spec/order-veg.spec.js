@@ -1,7 +1,7 @@
 const orderVeg = require("../katas/order-veg");
 const { expect } = require("chai");
 
-describe.only("orderVeg", () => {
+describe("orderVeg", () => {
   it("if empty array is passed return an empty array", () => {
     expect(orderVeg([])).to.deep.equal([]);
   });

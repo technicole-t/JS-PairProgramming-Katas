@@ -1,7 +1,7 @@
 const sumDigits = require("../katas/sum-digits");
 const { expect } = require("chai");
 
-describe.only("sumDigits", () => {
+describe("sumDigits", () => {
   it("returns 0 when no argument is passed", () => {
     const sum = sumDigits();
     const expected = 0;
