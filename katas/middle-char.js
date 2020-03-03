@@ -5,6 +5,8 @@
   'hello world!!' should return 'ow'
 */
 
-function getMiddleChar() {}
+function getMiddleChar() {
+
+}
 
 module.exports = getMiddleChar;
